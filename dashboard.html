@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <h2>Post a New Article</h2>
+    <form id="articleForm">
+        <input type="text" id="title" placeholder="Enter article title">
+        <textarea id="editor"></textarea>
+        <label for="imageUpload">Upload Image:</label>
+        <input type="file" id="imageUpload">
+        <img id="previewImage" style="display: none;">
+        <button type="submit">Publish Article</button>
+    </form>
+
+    <script type="module" src="dashboard.js"></script>
+</body>
+</html>
